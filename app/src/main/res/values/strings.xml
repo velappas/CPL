@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CPL</string>
+    <string name="title">Welcome to the Calgary Public Library</string>
+    <string name="title_search">Search</string>
+    <string name="title_hr">HR</string>
+    <string name="title_home">Home</string>
+
+</resources>
