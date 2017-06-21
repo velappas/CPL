@@ -4,5 +4,8 @@
     <string name="title_search">Search</string>
     <string name="title_hr">HR</string>
     <string name="title_home">Home</string>
-
+    <string name="library_logo">Library Logo</string>
+    <string name="hombound_reader">Homebound Reader</string>
+    <string name="volunteer">Volunteer</string>
+    <string name="admin">Administrator</string>
 </resources>
