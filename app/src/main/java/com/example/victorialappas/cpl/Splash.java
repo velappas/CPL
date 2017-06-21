@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.*;
 import android.view.View;
 import android.app.Activity;
+import android.content.Intent;
 
 
 public class Splash extends Activity {
@@ -24,25 +25,27 @@ public class Splash extends Activity {
 
 
         layouts = new int[]{
-                R.layout.hr_slide,
-                R.layout.volunteer_slide,
-                R.layout.admin_slide};
+                R.layout.activity_hr,
+                R.layout.activity_volunteer,
+                R.layout.activity_admin};
     }
 
 
 
 
     public void launchHRScreen(View v){
-
+           startActivity(new Intent(Splash.this, HRActivity.class));
+           finish();
     }
 
     public void launchVolunteerScreen(View v){
-
+        startActivity(new Intent(Splash.this, VolunteerActivity.class));
+        finish();
     }
 
     public void launchAdminScreen(View v){
-
-
+        startActivity(new Intent(Splash.this, AdminActivity.class));
+        finish();
     }
 }
 

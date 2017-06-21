@@ -18,7 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".HRActivity"
+            android:label="@string/title_activity_hr" />
+        <activity
+            android:name=".VolunteerActivity"
+            android:label="@string/title_activity_volunteer" />
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_admin"></activity>
     </application>
 
 </manifest>

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.victorialappas.cpl.MainActivity">
+    tools:context="com.example.victorialappas.cpl.VolunteerActivity">
 
     <FrameLayout
         android:id="@+id/content"
@@ -27,11 +27,11 @@
     </FrameLayout>
 
     <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
+        android:id="@+id/vnavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="?android:attr/windowBackground"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/vnavigation" />
 
 </LinearLayout>
