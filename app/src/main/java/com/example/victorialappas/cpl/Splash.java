@@ -8,6 +8,7 @@ import android.app.Activity;
 
 public class Splash extends Activity {
     private Button b1, b2, b3;
+    private ImageView logo;
     private int[] layouts;
 
 
@@ -18,32 +19,30 @@ public class Splash extends Activity {
         b1 = (Button) findViewById(R.id.b1);
         b2 = (Button) findViewById(R.id.b2);
         b3 = (Button) findViewById(R.id.b3);
+        logo = (ImageView) findViewById(R.id.imageView);
+        logo.setImageResource(R.drawable.calgary_public_library_logo);
+
 
         layouts = new int[]{
                 R.layout.hr_slide,
                 R.layout.volunteer_slide,
                 R.layout.admin_slide};
-        }
-
-        b1.setOnClickListener(new View.OnClickListener() {
-
-           @Override
-           public void onClick(View v){
-
-           }
-    });
+    }
 
 
-    private void launchHRScreen(){
+
+
+    public void launchHRScreen(View v){
 
     }
 
-    private void launchVolunteerScreen(){
+    public void launchVolunteerScreen(View v){
 
     }
 
-    private void launchAdminScreen(){
+    public void launchAdminScreen(View v){
 
 
     }
 }
+

@@ -32,7 +32,9 @@
         android:layout_marginTop="124dp"
         android:text="@string/hombound_reader"
         android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="launchHRScreen"/>
+
 
     <Button
         android:id="@+id/b2"
@@ -42,7 +44,8 @@
         android:text="@string/volunteer"
         android:layout_below="@+id/b1"
         android:layout_alignLeft="@+id/b1"
-        android:layout_alignStart="@+id/b1" />
+        android:layout_alignStart="@+id/b1"
+        android:onClick="launchVolunteerScreen"/>
 
     <Button
         android:id="@+id/b3"
@@ -52,5 +55,7 @@
         android:text="@string/admin"
         android:layout_below="@+id/b2"
         android:layout_alignLeft="@+id/b2"
-        android:layout_alignStart="@+id/b2" />
+        android:layout_alignStart="@+id/b2"
+        android:onClick="launchAdminScreen"/>
+
 </RelativeLayout>
