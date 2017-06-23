@@ -17,7 +17,7 @@
     <string name="add">Add</string>
     <string name="delete">Delete</string>
     <string name="title_modify">Modify</string>
-    <string name="book_author">Author</string>
+    <string name="book_author">Author(s)</string>
     <string name="book_title">Title</string>
     <string name="book_genre">Genre</string>
     <string name="title_hrlist">Activities in Progress</string>
@@ -29,4 +29,8 @@
     <string name="select">Select</string>
     <string name="jobs_in_progress">Jobs in Progress</string>
     <string name="delivered">Delivered</string>
+    <string name="isbn">ISBN</string>
+    <string name="fname">First Name(s)</string>
+    <string name="lname">Last Name</string>
+
 </resources>
