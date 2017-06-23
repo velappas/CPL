@@ -3,6 +3,7 @@
     <string name="title">Welcome to the Calgary Public Library</string>
     <string name="title_search">Search</string>
     <string name="title_hr">HR</string>
+    <string name="title_hrp">Homebound Reader Program</string>
     <string name="title_home">Home</string>
     <string name="library_logo">Library Logo</string>
     <string name="hombound_reader">Homebound Reader</string>
@@ -13,7 +14,14 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_volunteer">Volunteer</string>
     <string name="title_activity_admin">Administrator</string>
-    <string name="title_add">Add</string>
-    <string name="title_delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
     <string name="title_modify">Modify</string>
+    <string name="book_author">Author</string>
+    <string name="book_title">Title</string>
+    <string name="book_genre">Genre</string>
+    <string name="title_hrlist">Activities in Progress</string>
+    <string name="book_copies">No. of Copies</string>
+    <string name="title_add">Add a Book</string>
+    <string name="title_delete">Delete a Book</string>
 </resources>

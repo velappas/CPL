@@ -23,14 +23,7 @@ public class Splash extends Activity {
         logo = (ImageView) findViewById(R.id.imageView);
         logo.setImageResource(R.drawable.calgary_public_library_logo);
 
-
-        layouts = new int[]{
-                R.layout.activity_hr,
-                R.layout.activity_volunteer,
-                R.layout.activity_admin};
     }
-
-
 
 
     public void launchHRScreen(View v){

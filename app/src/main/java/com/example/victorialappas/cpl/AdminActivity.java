@@ -1,5 +1,8 @@
 package com.example.victorialappas.cpl;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -18,19 +21,19 @@ public class AdminActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
+                    pushFragment(new AHomeFragment());
                     return true;
                 case R.id.navigation_search:
-                    mTextMessage.setText(R.string.title_search);
+                    pushFragment(new ASearchFragment());
                     return true;
                 case R.id.navigation_add:
-                    mTextMessage.setText(R.string.title_add);
+                    pushFragment(new AAddFragment());
                     return true;
                 case R.id.navigation_delete:
-                    mTextMessage.setText(R.string.title_delete);
+                    pushFragment(new ADeleteFragment());
                     return true;
                 case R.id.navigation_modify:
-                    mTextMessage.setText(R.string.title_modify);
+                    pushFragment(new AModifyFragment());
                     return true;
 
             }
@@ -48,5 +51,22 @@ public class AdminActivity extends AppCompatActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.anavigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
+
+
+    protected void pushFragment(Fragment fragment) {
+        if (fragment == null)
+            return;
+
+        FragmentManager fragmentManager = getFragmentManager();
+        if (fragmentManager != null) {
+            FragmentTransaction ft = fragmentManager.beginTransaction();
+            if (ft != null) {
+                ft.replace(R.id.content, fragment);
+                ft.commit();
+            }
+        }
+    }
+
+
 
 }
