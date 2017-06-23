@@ -24,4 +24,9 @@
     <string name="book_copies">No. of Copies</string>
     <string name="title_add">Add a Book</string>
     <string name="title_delete">Delete a Book</string>
+    <string name="title_jobs">Jobs</string>
+    <string name="available_jobs">Available Jobs</string>
+    <string name="select">Select</string>
+    <string name="jobs_in_progress">Jobs in Progress</string>
+    <string name="delivered">Delivered</string>
 </resources>
