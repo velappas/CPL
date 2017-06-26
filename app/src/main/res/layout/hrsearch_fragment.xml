@@ -160,4 +160,16 @@
         android:layout_alignLeft="@+id/input_lname2"
         android:layout_alignStart="@+id/input_lname2" />
 
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/input_isbn"
+        android:layout_alignStart="@+id/input_isbn"
+        android:layout_alignTop="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/book_genre"
+        android:textSize="15sp" />
+
 </RelativeLayout>

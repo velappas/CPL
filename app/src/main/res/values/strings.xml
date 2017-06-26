@@ -32,5 +32,12 @@
     <string name="isbn">ISBN</string>
     <string name="fname">First Name(s)</string>
     <string name="lname">Last Name</string>
+    <string name="all_books">All Books</string>
+    <string name="title_year">Year</string>
+    <string name="bid">Branch ID</string>
+    <string name="id">ID</string>
+    <string name="insert">Insert</string>
+    <string name="remove">Remove</string>
+    <string name="delete_from_library">Delete From Library</string>
 
 </resources>
