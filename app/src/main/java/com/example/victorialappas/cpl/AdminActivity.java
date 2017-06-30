@@ -3,11 +3,13 @@ package com.example.victorialappas.cpl;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class AdminActivity extends AppCompatActivity {
@@ -66,6 +68,7 @@ public class AdminActivity extends AppCompatActivity {
             }
         }
     }
+
 
 
 

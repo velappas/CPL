@@ -39,5 +39,6 @@
     <string name="insert">Insert</string>
     <string name="remove">Remove</string>
     <string name="delete_from_library">Delete From Library</string>
+    <string name="title_activity_admin_search">ActivityAdminSearch</string>
 
 </resources>
